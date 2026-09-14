@@ -1,11 +1,17 @@
 {
-  "timestamp": "2026-09-14T02:56:26.647Z",
+  "timestamp": "2026-09-14T11:31:02.229Z",
   "overall": "outage",
   "metrics": {
     "status": "outage",
-    "operationalPercentage": 80,
-    "averageResponseTime": 1057,
+    "operationalPercentage": 70,
+    "averageResponseTime": 788,
     "sitesWithIssues": [
+      {
+        "id": "docker2k8s",
+        "name": "Docker to Kubernetes",
+        "status": "outage",
+        "statusText": "Connection Failed"
+      },
       {
         "id": "devopslab",
         "name": "DevOps Engineering Lab",
@@ -31,9 +37,9 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 194,
+      "responseTime": 206,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:24.467Z"
+      "lastChecked": "2026-09-14T11:30:52.388Z"
     },
     {
       "id": "docs",
@@ -44,9 +50,9 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 2341,
+      "responseTime": 2207,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:26.646Z"
+      "lastChecked": "2026-09-14T11:30:54.421Z"
     },
     {
       "id": "repos",
@@ -57,9 +63,9 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 278,
+      "responseTime": 310,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:24.585Z"
+      "lastChecked": "2026-09-14T11:30:52.526Z"
     },
     {
       "id": "jobs",
@@ -70,9 +76,9 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 1370,
+      "responseTime": 889,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:25.678Z"
+      "lastChecked": "2026-09-14T11:30:53.106Z"
     },
     {
       "id": "blog",
@@ -83,9 +89,9 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 1148,
+      "responseTime": 885,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:25.457Z"
+      "lastChecked": "2026-09-14T11:30:53.103Z"
     },
     {
       "id": "cloud",
@@ -96,9 +102,9 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 1148,
+      "responseTime": 435,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:25.458Z"
+      "lastChecked": "2026-09-14T11:30:52.654Z"
     },
     {
       "id": "docker2k8s",
@@ -106,12 +112,12 @@
       "url": "https://dockertokubernetes.live",
       "icon": "🐳",
       "description": "Master containerization journey",
-      "status": "operational",
-      "statusText": "Operational",
-      "statusCode": 200,
-      "responseTime": 976,
-      "error": null,
-      "lastChecked": "2026-09-14T02:56:25.287Z"
+      "status": "outage",
+      "statusText": "Connection Failed",
+      "statusCode": null,
+      "responseTime": 10007,
+      "error": "timeout of 10000ms exceeded",
+      "lastChecked": "2026-09-14T11:31:02.227Z"
     },
     {
       "id": "devopslab",
@@ -122,9 +128,9 @@
       "status": "outage",
       "statusText": "Connection Failed",
       "statusCode": null,
-      "responseTime": 612,
+      "responseTime": 249,
       "error": "getaddrinfo ENOTFOUND www.devops-engineering.site",
-      "lastChecked": "2026-09-14T02:56:24.924Z"
+      "lastChecked": "2026-09-14T11:30:52.470Z"
     },
     {
       "id": "toolguides",
@@ -135,9 +141,9 @@
       "status": "outage",
       "statusText": "Connection Failed",
       "statusCode": null,
-      "responseTime": 630,
+      "responseTime": 262,
       "error": "getaddrinfo ENOTFOUND www.devopsguides.site",
-      "lastChecked": "2026-09-14T02:56:24.942Z"
+      "lastChecked": "2026-09-14T11:30:52.483Z"
     },
     {
       "id": "cheatsheet",
@@ -148,23 +154,15 @@
       "status": "operational",
       "statusText": "Operational",
       "statusCode": 200,
-      "responseTime": 1004,
+      "responseTime": 584,
       "error": null,
-      "lastChecked": "2026-09-14T02:56:25.317Z"
+      "lastChecked": "2026-09-14T11:30:52.806Z"
     }
   ],
-  "lastChecked": "2026-09-14T02:56:26.647Z",
+  "lastChecked": "2026-09-14T11:31:02.229Z",
   "historical": {
     "hourly": {
       "projects": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 352
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 290
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 241
@@ -176,17 +174,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 194
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 206
         }
       },
       "docs": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 2594
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 2263
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 1982
@@ -198,17 +192,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 2341
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 2207
         }
       },
       "repos": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 636
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 456
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 513
@@ -220,17 +210,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 278
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 310
         }
       },
       "jobs": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 1442
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 1086
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 900
@@ -242,17 +228,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 1370
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 889
         }
       },
       "blog": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 837
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 423
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 633
@@ -264,17 +246,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 1148
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 885
         }
       },
       "cloud": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 1006
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 406
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 686
@@ -286,17 +264,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 1148
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 435
         }
       },
       "docker2k8s": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 1533
-        },
-        "2026-09-13T10": {
-          "status": "outage",
-          "responseTime": 364
-        },
         "2026-09-13T15": {
           "status": "outage",
           "responseTime": 338
@@ -308,17 +282,13 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 976
+        },
+        "2026-09-14T11": {
+          "status": "outage",
+          "responseTime": 10007
         }
       },
       "devopslab": {
-        "2026-09-13T02": {
-          "status": "outage",
-          "responseTime": 785
-        },
-        "2026-09-13T10": {
-          "status": "outage",
-          "responseTime": 305
-        },
         "2026-09-13T15": {
           "status": "outage",
           "responseTime": 382
@@ -330,17 +300,13 @@
         "2026-09-14T02": {
           "status": "outage",
           "responseTime": 612
+        },
+        "2026-09-14T11": {
+          "status": "outage",
+          "responseTime": 249
         }
       },
       "toolguides": {
-        "2026-09-13T02": {
-          "status": "outage",
-          "responseTime": 793
-        },
-        "2026-09-13T10": {
-          "status": "outage",
-          "responseTime": 339
-        },
         "2026-09-13T15": {
           "status": "outage",
           "responseTime": 432
@@ -352,17 +318,13 @@
         "2026-09-14T02": {
           "status": "outage",
           "responseTime": 630
+        },
+        "2026-09-14T11": {
+          "status": "outage",
+          "responseTime": 262
         }
       },
       "cheatsheet": {
-        "2026-09-13T02": {
-          "status": "operational",
-          "responseTime": 1097
-        },
-        "2026-09-13T10": {
-          "status": "operational",
-          "responseTime": 575
-        },
         "2026-09-13T15": {
           "status": "operational",
           "responseTime": 952
@@ -374,6 +336,10 @@
         "2026-09-14T02": {
           "status": "operational",
           "responseTime": 1004
+        },
+        "2026-09-14T11": {
+          "status": "operational",
+          "responseTime": 584
         }
       }
     },
@@ -443,13 +409,13 @@
           "avgResponseTime": 315
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 194,
+          "totalResponseTime": 400,
           "uptime": 100,
-          "avgResponseTime": 194
+          "avgResponseTime": 200
         }
       },
       "docs": {
@@ -517,13 +483,13 @@
           "avgResponseTime": 2287
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 2341,
+          "totalResponseTime": 4548,
           "uptime": 100,
-          "avgResponseTime": 2341
+          "avgResponseTime": 2274
         }
       },
       "repos": {
@@ -591,13 +557,13 @@
           "avgResponseTime": 506
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 278,
+          "totalResponseTime": 588,
           "uptime": 100,
-          "avgResponseTime": 278
+          "avgResponseTime": 294
         }
       },
       "jobs": {
@@ -665,13 +631,13 @@
           "avgResponseTime": 1155
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 1370,
+          "totalResponseTime": 2259,
           "uptime": 100,
-          "avgResponseTime": 1370
+          "avgResponseTime": 1130
         }
       },
       "blog": {
@@ -739,13 +705,13 @@
           "avgResponseTime": 652
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 1148,
+          "totalResponseTime": 2033,
           "uptime": 100,
-          "avgResponseTime": 1148
+          "avgResponseTime": 1017
         }
       },
       "cloud": {
@@ -813,13 +779,13 @@
           "avgResponseTime": 714
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 1148,
+          "totalResponseTime": 1583,
           "uptime": 100,
-          "avgResponseTime": 1148
+          "avgResponseTime": 792
         }
       },
       "docker2k8s": {
@@ -887,13 +853,13 @@
           "avgResponseTime": 841
         },
         "2026-09-14": {
-          "checks": 1,
+          "checks": 2,
           "operational": 1,
           "degraded": 0,
-          "outage": 0,
-          "totalResponseTime": 976,
-          "uptime": 100,
-          "avgResponseTime": 976
+          "outage": 1,
+          "totalResponseTime": 10983,
+          "uptime": 50,
+          "avgResponseTime": 5492
         }
       },
       "devopslab": {
@@ -961,13 +927,13 @@
           "avgResponseTime": 475
         },
         "2026-09-14": {
-          "checks": 1,
+          "checks": 2,
           "operational": 0,
           "degraded": 0,
-          "outage": 1,
-          "totalResponseTime": 612,
+          "outage": 2,
+          "totalResponseTime": 861,
           "uptime": 0,
-          "avgResponseTime": 612
+          "avgResponseTime": 431
         }
       },
       "toolguides": {
@@ -1035,13 +1001,13 @@
           "avgResponseTime": 528
         },
         "2026-09-14": {
-          "checks": 1,
+          "checks": 2,
           "operational": 0,
           "degraded": 0,
-          "outage": 1,
-          "totalResponseTime": 630,
+          "outage": 2,
+          "totalResponseTime": 892,
           "uptime": 0,
-          "avgResponseTime": 630
+          "avgResponseTime": 446
         }
       },
       "cheatsheet": {
@@ -1109,13 +1075,13 @@
           "avgResponseTime": 926
         },
         "2026-09-14": {
-          "checks": 1,
-          "operational": 1,
+          "checks": 2,
+          "operational": 2,
           "degraded": 0,
           "outage": 0,
-          "totalResponseTime": 1004,
+          "totalResponseTime": 1588,
           "uptime": 100,
-          "avgResponseTime": 1004
+          "avgResponseTime": 794
         }
       }
     }
